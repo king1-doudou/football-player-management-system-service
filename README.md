@@ -1,9 +1,3 @@
-# 前言
-NodeJS全栈开发之后端接口开发基于Node.js+Express+Mysql实现RESTFUL API，接口包括：登录，注册，记住密码，修改密码，退出登录，todoList增删改查CRUD，查询条件筛选，点亮红星标记等。本项目场景虽然简单，但涵盖功能比较齐全，适合初学全栈开发的小伙伴。如果觉得不错的话，请大大们给个:heart:star，也期待大家一起交流学习。
-
-[在线DEMO演示](http://106.55.168.13:8082/)
-
-[NodeJS全栈开发一个功能完善的Express项目实战分享](https://juejin.im/post/6844904198551666701)
 
 # 目录结构
 ```
@@ -48,9 +42,7 @@ NodeJS全栈开发之后端接口开发基于Node.js+Express+Mysql实现RESTFUL 
 
 # 下载安装依赖
 ```
-git clone https://github.com/jackchen0120/todo-nodejs-api.git
-cd todo-nodejs-api
-npm install 或 yarn
+npm install
 ```
 
 ## MySQL安装
@@ -68,9 +60,3 @@ npm start
 ```
 pm2 start ecosystem.config.js
 ```
-
-## 获取更多实操经验及项目源码
-
-欢迎关注个人公众号：**懒人码农**
-
-<img src="https://img-blog.csdnimg.cn/20200531011333650.png#pic_center?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzE1MDQxOTMx,size_16,color_FFFFFF,t_70" width="200" alt="公众号二维码" />
